@@ -3,14 +3,14 @@ import { ArrowUpRight } from "@phosphor-icons/react";
 
 export default function Header() {
     return (
-        <nav className="flex items-center justify-between sticky">
-            <div className="flex items-center w-[45%] justify-between">
+        <nav className="flex justify-between fixed w-full pr-[119px]">
+            <div className="flex items-center justify-between w-[50%]">
                 <div className="flex items-center">
                     <img
                         src="/logo.png"
                         className="w-[52px] h-[52px]"
                     />
-                    <h1 className="font-bold leading-[18px]">
+                    <h1 className="font-extrabold leading-[18px]">
                         Forest <br></br> livings.
                     </h1>
                 </div>
