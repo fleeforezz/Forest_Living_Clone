@@ -10,12 +10,12 @@ export default function Header() {
                         src="/logo.png"
                         className="w-[52px] h-[52px]"
                     />
-                    <h1 className="font-extrabold leading-[18px]">
+                    <h1 className="font-semibold leading-[18px]">
                         Forest <br></br> livings.
                     </h1>
                 </div>
 
-                <div className="flex gap-12 text-slate-500 font-semibold">
+                <div className="flex gap-12 text-slate-500 font-medium">
                     <a href="">
                         Products
                     </a>
@@ -31,7 +31,7 @@ export default function Header() {
                 </div>
             </div>
 
-            <a href="" className="px-[23px] py-[14px] bg-[#cbfcd4] rounded-full font-semibold flex items-center gap-2">
+            <a href="" className="px-[23px] py-[14px] bg-[#cbfcd4] rounded-full font-medium flex items-center gap-2">
                 Enquire Now
                 <ArrowUpRight size={17} color="#053716" weight="bold" />
             </a>
